@@ -1,0 +1,47 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Aprendendo  Git e Git Hub</title>
+	</head>
+	<body>
+		<h2> Criando o seu primeiro repositório </h2>
+		<br>
+		<h3> Passo a passo</h3>
+		<p> Após criar a conta no GitHub e baixar o Git, siga o passo a passo</p>
+		<ol>
+			<li> Ir até repositories; </li>
+			<li> New; </li>
+			<li> Renomear; </li>
+			<li> Marcar a opção público (para que outras pessoas possam ver, mas não é obrigatório, pode marcar privado também); </li>
+			<li> Marcar a opção <strong> add a readme;</strong></li>
+			<li> Create. </li> 
+		</ol>
+
+			<h3> Como clonar um repositório?</h3>
+			<p> Clonar um repositório não é tão difícil, siga o passo a passo e tenha sucesso.</p>
+			<ol>
+				<li> Copiar o link "clone" https ou ssh;</li>
+				<li> Abrir uma pasta nova no sistema operacional;</li>
+				<li> Clique em <strong>GitBash</strong> dentro da pasta com o lado direito do mouse;</li>
+				<li> $ Git clone + link (pode usar o shift+insert);</li>
+				<li> $ cd + nome da pasta (comando para entrar na pasta)</li>
+				<li> $ Git status (confirmar situação da pasta)</li>
+				<em> Utilize a tecla TAB para continuar a escrever</em>
+			</ol>
+	
+			<h3> Como por no servidor do GitHub?</h3>
+			<p> Anote esse passo a passo e nunca mais esqueça</p>
+			<ol>
+				<li> $ Git status (verificar se a posta nova está aparecendo [vermelho]); </li>
+				<li> $ Git add -a  ou Git add . (para por os arquivos na pasta local); </li>
+				<li> $ Git status (verificar se a pasta entrou[verde]); </li>
+				<li> $ Git commit -m "..........." (inserir uma mensagem coerente e com sentido ao conteúdo);</li>
+				<li> $ Git status (para verificar outra vez);</li>
+				<li> $ Git push origin main (esse comanda envia todos os commits que temos para a nuvem);</li>
+				<li> Olhar o GitHub (F5)</li>
+			</ol>
+	</body>
+	</html>
